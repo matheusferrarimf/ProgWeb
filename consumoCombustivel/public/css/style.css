@@ -1,0 +1,96 @@
+body {
+    background-color: #0f0f0f;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #00FFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+form, .card {
+    background-color: #1c1c1c;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00FFFF;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00FFFF;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00dada;
+}
+
+p, a {
+    text-align: center;
+    color: #ffffff;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #d9f6ff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    color: #000;
+}
+
+.container p {
+    color: #000;
+}
+.container h3 {
+    color: #00bcbc;
+}
+
+.result {
+    background-color: #d4f4e0;
+    color: #000;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
